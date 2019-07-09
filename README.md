@@ -4,7 +4,7 @@ This repository maintains codes used for two papers [1, 2]. The scattering trans
 
 ## Getting Started
 
-This repository contains the graph scattering transform. To use it, see [scat.py](scat.py) and the comments in that file. This repository also  specifically demonstates the implementation of the experiments described in [2]. The codes can be used for implementing the following models:
+This repository contains the graph scattering transform. To use it, see [scat.py](scat.py) and the comments in that file. See [example.py](example.py) for the illustrative example of Cora in [1]. This repository also specifically demonstates the implementation of the experiments described in [2]. The codes can be used for implementing the following models:
 - Link prediction (SCAT-S, SCAT-D)
 ```
 python trainCora.py -s S [S/D] -d cora [cora/citeseer/pubmed]
