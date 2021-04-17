@@ -267,7 +267,7 @@ for i in range(test_edges.shape[0]):
  
 test_edges_false = np.matrix(test_edges_false)        
 test_features_false = np.zeros([test_edges_false.shape[0], 2 * dim_final_feature])
-for i in range(val_edges_false.shape[0]):
+for i in range(test_edges_false.shape[0]):
     test_features_false[i, :] = np.concatenate([y_features_pca[test_edges_false[i,0],:], 
                   y_features_pca[test_edges_false[i,1],:]], axis=0)
     
