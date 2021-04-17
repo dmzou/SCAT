@@ -15,7 +15,7 @@ python trainFashion.py -s S [S/D] -g W [W/N]
 ```
 - Graph and signal generation (SCAT-SW, SCAT-DW, SCAT-SN, SCAT-DN)
 ```
-python -W ignore trainFashion.py -s S [S/D] -g W [W/N]
+python -W ignore trainQM9.py -s S [S/D] -g W [W/N]
 ```
 
 ### Prerequisites
